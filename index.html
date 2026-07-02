@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">ポートフォリオ一覧</h1>
+        <h2 class="name">Kuwana Hikaru</h2>
+    </div>
+    <section class="portfolio_wrapper">
+        <figure class="item">
+            <a target="_blank" href="https://hikarusangming7-cmd.github.io/umibozu_portfolio/" >
+                <img class="work-thumb" src="images/portfolio.png" alt="" data-index="0">
+                <figcaption class="caption">うみぼうずはどこだ？ポートフォリオサイト</figcaption>
+            </a>
+            <button class="open" data-index="0">詳細を見る</button>
+        </figure>
+        <figure class="item">
+            <a target="_blank" href="https://hikarusangming7-cmd.github.io/Story__Maker/" >
+                <img class="work-thumb" src="images/stmaker.png" alt="" data-index="1">
+                <figcaption class="caption">物語メーカー</figcaption>
+            </a>
+            <button class="open" data-index="1">詳細を見る</button>
+        </figure>
+        <figure class="item">
+            <a target="_blank" href="https://shy-iki-9326.main.jp/wordpress/" >
+                <img class="work-thumb" src="images/saveanimal.png" alt="" data-index="2">
+                <figcaption class="caption">犬猫保護団体サイト</figcaption>
+            </a>
+            <button class="open" data-index="2">詳細を見る</button>
+        </figure>
+        <figure class="item">
+            <a target="_blank" href="#" >
+                <img class="work-thumb" src="images/kaidan.png" alt="" data-index="3">
+                <figcaption class="caption">マルチエンディングホラーゲーム</figcaption>
+            </a>
+            <button class="open" data-index="3">詳細を見る</button>
+        </figure>
+        <figure class="item">
+            <a target="_blank" href="#" >
+                <img class="work-thumb" src="images/pokeapi.png" alt="" data-index="4">
+                <figcaption class="caption">API図鑑</figcaption>
+            </a>
+            <button class="open" data-index="4">詳細を見る</button>
+        </figure>
+        <figure class="item">
+            <a target="_blank" href="#" >
+                <img class="work-thumb" src="images/banner.png" alt="" data-index="5">
+                <figcaption class="caption">ドッグランバナー</figcaption>
+            </a>
+            <button class="open" data-index="5">詳細を見る</button>
+        </figure>
+                <figure class="item">
+            <a target="_blank" href="#" >
+                <img class="work-thumb" src="images/cafebanner.png" alt="" data-index="6">
+                <figcaption class="caption">カフェのアルバイト募集バナー</figcaption>
+            </a>
+            <button class="open" data-index="6">詳細を見る</button>
+        </figure>
+    </section>
+    <section>
+        <div id="mask" class="hidden"></div>
+        
+        <div id="modal" class="hidden">
+            <img id="workImage" src="" alt="">
+            <p class="work-detail">
+                <strong>タイトル：</strong><br>
+                <span id="workTitle"></span>
+            </p>
+            <p class="work-detail">
+                <strong>作ったもの：</strong><br>
+                <span id="workItem"></span>
+            </p>
+            <p class="work-detail">
+                <strong>使用したスキル：</strong><br>
+                <span id="workSkill"></span>
+            </p>
+            <p id="termArea" class="work-detail">
+                <strong>制作期間：</strong><br>
+                <span id="workTerm"></span>
+            </p>
+            <p class="work-detail">
+                <strong>つけた機能・工夫点：</strong><br>
+                <span id="workPoint"></span>
+            </p>
+            <p id="urlArea" class="work-detail">
+                <strong>URL：</strong><br>
+                <a id="workUrl" target="_blank"></a>
+            </p>
+            <!-- <div id="left">⬅︎</div> -->
+             <i id="left" class="fa-solid fa-circle-arrow-left"></i>
+             <i id="right" class="fa-solid fa-circle-arrow-right"></i>
+            <!-- <div id="right">➡︎</div> -->
+            <button class="close">閉じる</button>
+        </div>
+    </section>
+    <section>
+        <div id="imagePreviewMask" class="hidden"></div>
+        <div id="imagePreviewModal" class="hidden">
+        <img id="previewImage" src="" alt="">
+    </div>
+    </section>
+</body>
+</html>
