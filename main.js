@@ -17,6 +17,7 @@ const imagePreviewModal = document.querySelector("#imagePreviewModal");
 const previewImage = document.querySelector("#previewImage");
 const termArea = document.querySelector("#termArea");
 const urlArea = document.querySelector("#urlArea");
+const itemLabel = document.querySelector("#itemLabel");
 
 
 
@@ -75,6 +76,7 @@ const works = [
         {
         workImage:`images/banner.png`,
         workTitle: `ドッグランのバナー`,
+        workItem: `愛犬家,週末にペットとお出かけしたい20〜40代の男女`,
         workSkill: `Canva`,
         workPoint: `屋外の開放感と楽しそうな雰囲気を伝えるため、夏らしい鮮やかなイエローとヤシの木のグリーンを基調に、南国風の爽やかな世界観を目指しました。
         最初は全部白い文字でフチをつけて見やすくしていましたが、あまり楽しそうに見えなかったため、メインの「DOG RUN」をパッと目を引く鮮やかなカラフルグラデーションに変更し、
@@ -83,7 +85,8 @@ const works = [
     },
         {
         workImage:`images/creamsoda.png`,
-        workTitle: `新作ジュースバナー`,
+        workTitle: `夏の新作ジュースの広告バナー(300px × 250px)`,
+        workItem: `期間限定のスイーツやトレンドに敏感な若層、学生`,
         workSkill: `Canva`,
         workPoint: `夏らしさと爽やかさを演出するため、青空の背景にフレアを組み合わせ、アクセントに黄色を取り入れました。最も目立たせたい「果汁100%」を1番に、次に「クリームソーダ」へ視線が流れるよう動線を設計しています。また、文字の視認性を高めるため、ドロップシャドウで立体感を出したり、下部にカラーの背景帯を敷くなどの工夫を施しました。`,
 
@@ -122,6 +125,7 @@ const showWork = (index) =>{
 // になる
 
     if(work.workSkill === "Canva"){
+        itemLabel.textContent = "想定ターゲット：";
         workImage.classList.add("is-banner");
         termArea.style.display = "none";
         urlArea.style.display = "none";
@@ -135,6 +139,7 @@ const showWork = (index) =>{
             imagePreviewModal.classList.remove("hidden");
         };
     }else{
+        itemLabel.textContent = "作ったもの："; 
         workImage.classList.remove("is-banner");
         termArea.style.display = "block";
         urlArea.style.display = "block";
