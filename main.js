@@ -92,7 +92,7 @@ const works = [
 
     },
             {
-        workImage:`images/chocolanoirbanner76.png`,
+        workImage:`images/noir.png`,
         workTitle: `新作チョコレートの広告バナー(300 × 250px)`,
         workItem: `30代〜50代の、普段がんばっているご褒美が必要な女性`,
         workSkill: `Canva`,
