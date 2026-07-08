@@ -28,7 +28,7 @@ const works = [
         workImage:`images/portfolio.png`,
         workTitle: `うみぼうずはどこだ？ポートフォリオサイト`,
         workItem: `隠れているチワワが何匹いるかを探し出すポートフォリオサイト`,
-        workSkill: `HTML/CSS/JavaScript/Illustrator/Photoshop`,
+        workSkill: `HTML/CSS/JavaScript/Illustrator/Photoshop/figma`,
         workTerm: `3週間`,
         workPoint: `スクラップブック風のデザインになっています。ケージから出してほしくて震えさせたり等、愛犬らしさを意識して作りました。工夫した点は、GSAPで手書き風の文字をIllustratorで描いたり、ただのポートフォリオにならないように、楽しめる仕掛けを考えたところです。骨、肉球、うみぼうずはどこだ？は手描きで、フィルムは手作りです。看板も自作で、フリー素材をクリッピングマスクしています。`,
         workUrl:`https://hikarusangming7-cmd.github.io/umibozu_portfolio/`
