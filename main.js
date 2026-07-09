@@ -100,7 +100,7 @@ const works = [
 
     },
             {
-        workImage:`images/nailmonitor.png`,
+        workImage:`images/nailsalonmonitor.png`,
         workTitle: `ネイルサロンのモニター募集のバナー(320 × 100px)`,
         workItem: `「ネイルはしたいけれど、毎月の出費を抑えたい」と思っている学生やフリーター、若手会社員。`,
         workSkill: `Canva`,

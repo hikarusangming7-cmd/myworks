@@ -176,3 +176,6 @@ body{
     display: none;
 }
 
+.widebanner{
+    object-fit: contain; 
+}
