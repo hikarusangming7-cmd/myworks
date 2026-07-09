@@ -100,8 +100,8 @@ const works = [
 
     },
             {
-        workImage:`images/nailsalonchouchou.png`,
-        workTitle: `ネイルサロンのモニター募集のバナー(320 × 100px)`,
+        workImage:`images/nailmonitorbig.png`,
+        workTitle: `ネイルサロンのモニター募集のバナー(640 × 200px)`,
         workItem: `「ネイルはしたいけれど、毎月の出費を抑えたい」と思っている学生やフリーター、若手会社員。`,
         workSkill: `Canva,photoshop`,
         workPoint: `左側がごちゃつかないように文字それぞれが独立して見えるようにフォントやエフェクトを工夫しました。photoshopで手を明るくし、クリックしたくなるようにボタンのような角丸を入れ、CLICK!!と書き色を目立たせました。`,
