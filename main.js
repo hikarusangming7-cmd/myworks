@@ -104,7 +104,7 @@ const works = [
         workTitle: `ネイルサロンのモニター募集のバナー(320 × 100px)`,
         workItem: `「ネイルはしたいけれど、毎月の出費を抑えたい」と思っている学生やフリーター、若手会社員。`,
         workSkill: `Canva,photoshop`,
-        workPoint: `左側に情報を集めたため、なるべくごちゃつかないように文字それぞれが独立して見えるようにフォントやエフェクトを工夫しました。photoshopで手を明るくして、クリックしたくなるようにボタンのような角丸を入れ、CLICK!!と書き色を目立たせました。`,
+        workPoint: `左側がごちゃつかないように文字それぞれが独立して見えるようにフォントやエフェクトを工夫しました。photoshopで手を明るくし、クリックしたくなるようにボタンのような角丸を入れ、CLICK!!と書き色を目立たせました。`,
 
     },
 ];
@@ -140,7 +140,7 @@ const showWork = (index) =>{
 
 // になる
 
-    if(work.workSkill === "Canva"){
+    if(work.workSkill && work.workSkill.includes("Canva")){
         itemLabel.textContent = "想定ターゲット：";
         workImage.classList.add("is-banner");
         termArea.style.display = "none";
@@ -246,7 +246,7 @@ captions.forEach((caption, index) => {
     caption.addEventListener("click", (e) => {
         const work = works[index];
 
-        if (work.workSkill === "Canva") {
+        if (work.workSkill && work.workSkill.includes("Canva")) {
             e.preventDefault(); 
             previewImage.src = work.workImage; 
             imagePreviewMask.classList.remove("hidden");
