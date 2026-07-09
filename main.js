@@ -108,8 +108,8 @@ const works = [
 
     },
                 {
-        workImage:`images/gym.png`,
-        workTitle: `ジムのバナー(300 × 250px)`,
+        workImage:`images/gymbannerbig.png`,
+        workTitle: `ジムのバナー(1200 × 900px)`,
         workItem: `「24時間ジムに通ったけど、マシンの使い方が分からず幽霊会員になった」という挫折経験がある人。「マンツーマンのパーソナルは高すぎて続けられない」と悩む人。`,
         workSkill: `Canva,photoshop`,
         workPoint: `フリー素材の男性の顔が暗かったため、怖いインストラクターがいると思わせないためにphotoshopで顔を明るくしました。筋トレ感を出すために左側は黒のグラデーションを2枚重ね、パワーを感じるオレンジ色をアクセントにし、文字はジャンプ率を意識しました。`,
