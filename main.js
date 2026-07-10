@@ -87,7 +87,7 @@ const works = [
         workImage:`images/creamsoda.png`,
         workTitle: `夏の新作ジュースの広告バナー(300 × 250px)`,
         workItem: `期間限定のスイーツやトレンドに敏感な若層、学生`,
-        workSkill: `Canva`,
+        workSkill: `Canva,photoshop`,
         workPoint: `夏らしさと爽やかさを演出するため、青空の背景にフレアを組み合わせ、アクセントに黄色を取り入れました。最も目立たせたい「果汁100%」を1番に、次に「クリームソーダ」へ視線が流れるよう動線を設計しています。また、文字の視認性を高めるため、ドロップシャドウで立体感を出したり、下部にカラーの背景帯を敷くなどの工夫を施しました。`,
 
     },
@@ -95,7 +95,7 @@ const works = [
         workImage:`images/sinsakuchoko.png`,
         workTitle: `新作チョコレートの広告バナー(300 × 250px)`,
         workItem: `30代〜50代の、普段がんばっているご褒美が必要な女性`,
-        workSkill: `Canva`,
+        workSkill: `Canva,photoshop`,
         workPoint: `板チョコレートをパキッと割ったときの様子を表現しています。「Noir（黒）」を象徴するトリュフを、右側にシズル感のあるチョコレートソースを配置し、「静」と「動」の対比で目を引く構成にしています。主張したいのは左側のトリュフなので、左を範囲広めにしています。`,
 
     },
