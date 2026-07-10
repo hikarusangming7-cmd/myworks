@@ -74,6 +74,7 @@ const works = [
 
     },
         {
+        isBanner: true,
         workImage:`images/banner.png`,
         workTitle: `ドッグランのバナー`,
         workItem: `愛犬家,週末にペットとお出かけしたい20〜40代の男女`,
@@ -84,6 +85,7 @@ const works = [
 
     },
         {
+        isBanner: true,
         workImage:`images/creamsoda.png`,
         workTitle: `夏の新作ジュースの広告バナー(300 × 250px)`,
         workItem: `期間限定のスイーツやトレンドに敏感な若層、学生`,
@@ -92,6 +94,7 @@ const works = [
 
     },
             {
+        isBanner: true,
         workImage:`images/sinsakuchoko.png`,
         workTitle: `新作チョコレートの広告バナー(300 × 250px)`,
         workItem: `30代〜50代の、普段がんばっているご褒美が必要な女性`,
@@ -100,6 +103,7 @@ const works = [
 
     },
             {
+        isBanner: true,
         workImage:`images/nailmonitor.png`,
         workTitle: `ネイルサロンのモニター募集のバナー(640 × 200px)`,
         workItem: `「ネイルはしたいけれど、毎月の出費を抑えたい」と思っている学生やフリーター、若手会社員。`,
@@ -108,6 +112,7 @@ const works = [
 
     },
                 {
+        isBanner: true,
         workImage:`images/gymbannerbig.png`,
         workTitle: `セミパーソナルジムのバナー(1200 × 900px)`,
         workItem: `「24時間ジムに通ったけど、マシンの使い方が分からず幽霊会員になった」という挫折経験がある人。「マンツーマンのパーソナルは高すぎて続けられない」と悩む人。`,
@@ -116,6 +121,7 @@ const works = [
 
     },
                     {
+        isBanner: true,
         workImage:`images/petnohoken.png`,
         workTitle: `ペット保険のバナー(320 × 250px)`,
         workItem: `ペットを飼っている人、これからペットを飼おうか考えている人`,
@@ -156,7 +162,7 @@ const showWork = (index) =>{
 
 // になる
 
-    if(work.workSkill && work.workSkill.includes("Canva")){
+    if(work.isBanner){
         itemLabel.textContent = "想定ターゲット：";
         workImage.classList.add("is-banner");
         termArea.style.display = "none";
@@ -262,7 +268,7 @@ captions.forEach((caption, index) => {
     caption.addEventListener("click", (e) => {
         const work = works[index];
 
-        if (work.workSkill && work.workSkill.includes("Canva")) {
+        if (work.isBanner) {
             e.preventDefault(); 
             previewImage.src = work.workImage; 
             imagePreviewMask.classList.remove("hidden");
