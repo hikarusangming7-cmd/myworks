@@ -116,7 +116,7 @@ const works = [
 
     },
                     {
-        workImage:`images/pethoken.png`,
+        workImage:`images/petnohoken.png`,
         workTitle: `ペット保険のバナー(320 × 250px)`,
         workItem: `ペットを飼っている人、これからペットを飼おうか考えている人`,
         workSkill: `photoshop`,
