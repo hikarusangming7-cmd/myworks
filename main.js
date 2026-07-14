@@ -124,7 +124,7 @@ const works = [
         isBanner: true,
         workImage:`images/ecbanner.png`,
         workTitle: `ECサイトのセールのバナー(320 × 250px)`,
-        workItem: `ヘア商品や美容に興味があるユーザー、セールを心待ちにしているユーザー。`,
+        workItem: `セールを心待ちにしているユーザー。`,
         workSkill: `Canva,photoshop,Illustrator`,
         workPoint: `photoshopでフリー素材の女性を漫画風にして、illustratorで中央線と黄色のテープを作りました。普段は少し高価で手が届きにくい美容家電やヘアケア商品を扱うECサイトにおいて、「今日だけ驚きの価格で手に入る」という強烈なお得感と緊急性をユーザーに直感的に伝えることをコンセプトに設計しました。`,
 
