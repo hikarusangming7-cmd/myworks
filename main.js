@@ -122,7 +122,7 @@ const works = [
     },
                     {
         isBanner: true,
-        workImage:`images/ecbanner.png`,
+        workImage:`images/sale.png`,
         workTitle: `ECサイトのセールのバナー(320 × 250px)`,
         workItem: `セールを心待ちにしているユーザー。`,
         workSkill: `Canva,photoshop,Illustrator`,
