@@ -82,17 +82,6 @@ const works = [
         workPoint: `photoshopでフリー素材の女性を漫画風に加工して、illustratorで女性を囲っている中央線と黄色のテープを作りました。普段は少し高価で手が届きにくい美容家電やヘアケア商品を扱うECサイトにおいて、「今日だけ驚きの価格で手に入る」という強烈なお得感と緊急性をユーザーに直感的に伝えることをコンセプトに設計しました。`,
 
     },
-    //     {
-    //     isBanner: true,
-    //     workImage:`images/banner.png`,
-    //     workTitle: `ドッグランのバナー`,
-    //     workItem: `愛犬家,週末にペットとお出かけしたい20〜40代の男女`,
-    //     workSkill: `Canva`,
-    //     workPoint: `屋外の開放感と楽しそうな雰囲気を伝えるため、夏らしい鮮やかなイエローとヤシの木のグリーンを基調に、南国風の爽やかな世界観を目指しました。
-    //     最初は全部白い文字でフチをつけて見やすくしていましたが、あまり楽しそうに見えなかったため、メインの「DOG RUN」をパッと目を引く鮮やかなカラフルグラデーションに変更し、
-    //     続く「OPEN」をシンプルな白文字にすることで、賑やかで楽しそうな印象を与えつつ、文字が背景に埋もれずくっきりと前に飛び出してくるように工夫しました。`,
-
-    // },
         {
         isBanner: true,
         workImage:`images/creamsoda.png`,
@@ -130,15 +119,15 @@ const works = [
 
     },
 
-    //                 {
-    //     isBanner: true,
-    //     workImage:`images/magokoropet.png`,
-    //     workTitle: `ペット保険のバナー(320 × 250px)`,
-    //     workItem: `ペットを飼っている人、これからペットを飼おうか考えている人`,
-    //     workSkill: `photoshop`,
-    //     workPoint: `photoshopで平行四辺形を作り、その中に動物の写真を入れてクリッピングマスクして、左側だけ背景からはみ出た部分を白く塗っています。今すぐお見積もりをしないと！とユーザーがクリックしたくなるような文にしました。`,
+                    {
+        isBanner: true,
+        workImage:`images/fukuikenbanner.png`,
+        workTitle: `福井県の観光セールのバナー(300 × 300px)`,
+        workItem: `どこか旅行に行きたいと考えている人`,
+        workSkill: `photoshop`,
+        workPoint: `真ん中は恐竜の卵の形をイメージしています。文字を斜めにすることで、動きがあるように見せ、急ぎたくなるように仕向けています。`,
 
-    // },
+    },
 ];
 
 let currentIndex = 0;
