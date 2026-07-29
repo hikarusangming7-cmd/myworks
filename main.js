@@ -119,15 +119,15 @@ const works = [
 
     },
 
-                    {
-        isBanner: true,
-        workImage:`images/fukuikenbanner.png`,
-        workTitle: `福井県の観光セールのバナー(300 × 300px)`,
-        workItem: `どこか旅行に行きたいと考えている人`,
-        workSkill: `photoshop`,
-        workPoint: `真ん中は恐竜の卵の形をイメージしています。文字を斜めにすることで、動きがあるように見せ、急ぎたくなるように仕向けています。`,
+    //                 {
+    //     isBanner: true,
+    //     workImage:`images/fukuikenbanner.png`,
+    //     workTitle: `福井県の観光セールのバナー(300 × 300px)`,
+    //     workItem: `どこか旅行に行きたいと考えている人`,
+    //     workSkill: `photoshop`,
+    //     workPoint: `真ん中は恐竜の卵の形をイメージしています。文字を斜めにすることで、動きがあるように見せ、急ぎたくなるように仕向けています。`,
 
-    },
+    // },
 ];
 
 let currentIndex = 0;
