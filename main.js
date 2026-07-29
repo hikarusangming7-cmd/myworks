@@ -119,15 +119,15 @@ const works = [
 
     },
 
-    //                 {
-    //     isBanner: true,
-    //     workImage:`images/fukuikenhe.png`,
-    //     workTitle: `福井県の観光セールのバナー(300 × 300px)`,
-    //     workItem: `福井県に旅行に行きたいと考えている人`,
-    //     workSkill: `photoshop`,
-    //     workPoint: `冬前のセールバナーで、氷河期が来て恐竜が絶滅してしまう前に福井に来るように促すバナーにしました。斜めの要素を入れることでユーザーを急かしています。`,
+                    {
+        isBanner: true,
+        workImage:`images/fukuikenhe.png`,
+        workTitle: `福井県の観光セールのバナー(300 × 300px)`,
+        workItem: `福井県に旅行に行きたいと考えている人`,
+        workSkill: `photoshop`,
+        workPoint: `冬前のセールバナーで、氷河期が来て恐竜が絶滅してしまう前に福井に来るように促すバナーにしました。斜めの要素を入れることでユーザーを急かしています。`,
 
-    // },
+    },
 ];
 
 let currentIndex = 0;
