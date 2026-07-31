@@ -75,10 +75,10 @@ const works = [
     },
     {
         isBanner: true,
-        workImage:`images/sale.png`,
-        workTitle: `ECサイトのセールのバナー(320 × 250px)`,
-        workItem: `セールを心待ちにしているユーザー。`,
-        workSkill: `Canva,photoshop,Illustrator`,
+        workImage:`images/clearancesalenobanner.png`,
+        workTitle: `ECサイトのセールのバナー(640 × 500px)`,
+        workItem: `セールを心待ちにしているユーザー、金銭事情により購入を控えているユーザー`,
+        workSkill: `photoshop,Illustrator`,
         workPoint: `photoshopでフリー素材の女性を漫画風に加工して、illustratorで女性を囲っている中央線と黄色のテープを作りました。普段は少し高価で手が届きにくい美容家電やヘアケア商品を扱うECサイトにおいて、「今日だけ驚きの価格で手に入る」という強烈なお得感と緊急性をユーザーに直感的に伝えることをコンセプトに設計しました。`,
 
     },
@@ -125,7 +125,7 @@ const works = [
         workTitle: `福井県の観光セールのバナー(300 × 300px)`,
         workItem: `福井県に旅行に行きたいと考えている人`,
         workSkill: `photoshop`,
-        workPoint: `冬前のセールバナーで、氷河期が来て恐竜が絶滅してしまう前に福井に来るように促すバナーにしました。斜めの要素を入れることでユーザーを急かしています。`,
+        workPoint: `冬前のセールバナーで、氷河期が来て恐竜が絶滅してしまう前に福井に来るように促すバナーにしました。真ん中は氷河期が来て凍えている恐竜の画像を入れています。斜めの要素を入れることでユーザーを急かしています。`,
 
     },
 ];
