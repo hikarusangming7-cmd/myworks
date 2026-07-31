@@ -26,7 +26,7 @@ const itemLabel = document.querySelector("#itemLabel");
 const works = [
     {
         workImage:`images/portfolio.png`,
-        workTitle: `うみぼうずはどこだ？ポートフォリオサイト`,
+        workTitle: `うみぼうずはどこだ？ギミックサイト`,
         workItem: `隠れているチワワが何匹いるかを探し出す、ギミックつきのポートフォリオサイト`,
         workSkill: `HTML/CSS/JavaScript/Illustrator/Photoshop/figma`,
         workTerm: `3週間`,
