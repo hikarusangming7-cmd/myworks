@@ -75,7 +75,7 @@ const works = [
     },
     {
         isBanner: true,
-        workImage:`images/clearancesalenobanner.png`,
+        workImage:`images/salewoman.png`,
         workTitle: `ECサイトのセールのバナー(640 × 500px)`,
         workItem: `セールを心待ちにしているユーザー、金銭事情により購入を控えているユーザー`,
         workSkill: `photoshop,Illustrator`,
