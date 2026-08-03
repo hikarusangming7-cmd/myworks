@@ -130,7 +130,7 @@ const works = [
     },
                         {
         isBanner: true,
-        workImage:`images/sesnobanner.png`,
+        workImage:`images/sesengineer.png`,
         workTitle: `SES会社の求人バナー(640 × 500px)`,
         workItem: `働き先を探している、柔軟な働き方をしたいと考えている、キャリアアップをしたいエンジニア職希望の人`,
         workSkill: `photoshop`,
